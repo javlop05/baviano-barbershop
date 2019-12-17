@@ -1,4 +1,16 @@
 {
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "jest": true,
+        "serviceworker": true
+    },
     "extends": [
         "react-app",
         "eslint:recommended"
